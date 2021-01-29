@@ -1,5 +1,7 @@
 abbr -a c cargo
 abbr -a cr 'cargo run'
+abbr -a cc 'cargo check'
+abbr -a ct 'cargo test'
 
 abbr -a gr 'go run .'
 abbr -a gt 'go test'
