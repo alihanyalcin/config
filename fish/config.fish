@@ -22,3 +22,8 @@ end
 
 set PATH $HOME/.cargo/bin $PATH
 
+if not set -q TMUX
+	set -g TMUX tmux new-session -d -s work
+	eval $TMUX
+	tmux attach-session -d -t work 
+end
