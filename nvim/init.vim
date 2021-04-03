@@ -92,12 +92,6 @@ let g:latex_indent_enabled = 1
 let g:latex_fold_envs = 0
 let g:latex_fold_sections = []
 
-" Open hotkeys
-map <C-p> :Files<CR>
-nmap <leader>; :Buffers<CR>
-
-" Quick-save
-nmap <leader>w :w<CR>
 
 " Don't confirm .lvimrc
 let g:localvimrc_ask = 0
@@ -255,6 +249,14 @@ map L $
 
 " NERDTree
 nnoremap <leader>t :NERDTreeFocus<CR>
+
+" Open hotkeys
+map <C-p> :Files<CR>
+nmap <leader>; :Buffers<CR>
+nmap <leader>f :Rg<CR>
+
+" Quick-save
+nmap <leader>w :w<CR>
 
 " coc.vim 
 " 'Smart' nevigation
