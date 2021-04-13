@@ -33,5 +33,8 @@ set idearefactormode=keep
 map <leader>d <Action>(Debug)
 map <leader>rn <Action>(RenameElement)
 map <leader>c <Action>(Stop)
+map <leader>t <Action>(ActivateProjectToolWindow)
+map <leader>f <Action>(FindInPath)
+map <g>r <Action>(FindUsages)
 
 map <leader>b <Action>(ToggleLineBreakpoint)
