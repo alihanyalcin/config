@@ -21,6 +21,7 @@ else
 end
 
 set PATH $HOME/.cargo/bin $PATH
+set PATH $HOME/go/bin $PATH
 
 if not set -q TMUX
 	set -g TMUX tmux new-session -d -s work
