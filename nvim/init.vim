@@ -29,6 +29,7 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'preservim/nerdtree'
 Plugin 'preservim/nerdcommenter'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'rhysd/git-messenger.vim'
 
 " Fuzzy finder
 Plugin 'airblade/vim-rooter'
