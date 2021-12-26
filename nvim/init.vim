@@ -30,6 +30,7 @@ Plugin 'preservim/nerdtree'
 Plugin 'preservim/nerdcommenter'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'rhysd/git-messenger.vim'
+Plugin 'buoto/gotests-vim'
 
 " Fuzzy finder
 Plugin 'airblade/vim-rooter'
