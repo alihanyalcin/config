@@ -28,3 +28,5 @@ if not set -q TMUX
 	eval $TMUX
 	tmux attach-session -d -t work 
 end
+
+mcfly init fish | source
